@@ -14,5 +14,7 @@ public class Car {
 	public String toString() {
 		return "Car [dizhi=" + dizhi + ", price=" + price + ", danjia=" + danjia + "]";
 	}
-	
+	public void say(){
+		system.out.println("hello");
+	}
 }
