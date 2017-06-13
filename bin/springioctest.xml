@@ -3,8 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	
-	<bean id="grettingServiceImpl" class="com.shumeng.spring.ioc.GreetingServiceImpl">
-		<property name="say" value="你好"></property>
+	<bean id="greetingDaoImpl" class="com.shumeng.spring.ioc.GreetingDaoImpl">
+		<constructor-arg index="0" value="你好"></constructor-arg>
+		<constructor-arg index="1" value="我爱吃橘子"></constructor-arg>
 	</bean>
+	
 </beans>
