@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/applicationContext.xml</config>
 		<config>src/springioctest.xml</config>
+		<config>src/beans-properties.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
